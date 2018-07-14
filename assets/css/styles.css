@@ -177,5 +177,61 @@ a:focus { background-color: #a5f7e2; }
 }
 
 @media screen and (min-width: 769px) {
+  #content-area {
+    width: 960px;
+  }
   
+  .about-me {
+    width: 650px;
+    margin-top: -20px;
+    margin-right: -20px;
+  }
+
+  #top-div {
+    background-color:  #4AAAA5;
+    margin-top: 0;
+    padding-top: 0;
+    width: 190px;
+    height: 4rem;
+    margin-right: 0;
+    border-bottom: solid 1px #2d1d1d;
+    display: inline-block;
+  }
+    
+  #menu-links {
+    display: inline-block;
+    height: 4rem;
+    width: 700px;
+    left: -4px;
+    top: -22px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #2d1d1d;
+  }
+
+  h3.social-elem {
+    text-align: center;
+  }
+
+  .menu-link-text {
+    display: inline-block;
+    padding-right: 1.5rem;
+    position: relative;
+    bottom: -1.2rem;
+    right: -30rem;
+  }
+
+  #sidebar-section {
+    width: 200px;
+    height: 160px;
+    position: relative;
+    left: 670px;
+    top: -582px;
+  }
+
+  .social-button {
+    height: 45px;
+    width: 45px;
+    margin-left: 1rem;
+  }
 }
