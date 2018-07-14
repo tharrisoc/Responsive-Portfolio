@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Responsive Portfolio Contact Page</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    </head>
+    <body>
+
+      <div id="top-div">
+        <nav>
+          <h1 id="page-name">Thomas Harris</h1>
+          <div id="menu-links">
+            <span class="menu-link-text"><a href="./index.html">About</a></span>
+            <span class="menu-link-text"><a href="./portfolio.html">Portfolio</a></span>
+            <span class="menu-link-text"><a href="./contact.html">Contact</a></span>
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div id="content-area" class="clear">
+        <section id="main-section" class="contact-form">
+          <h2 class="card-header">Contact</h2>
+          <hr />
+
+          <div id="form-content">
+            <form method="POST" action="" name="comment-form" id="comment-form">
+              <p class="contact-label"><label for="name">Name</label></p>
+              <p><input type="text" name="name" id="name" placeholder="Please enter full name" value="" /></p>
+
+              <p class="contact-label"><label for="email">Email</label></p>
+              <p><input type="email" name="email" id="email" placeholder="Please enter a valid email address" value="" /></p>
+
+              <p class="contact-label"><label for="message">Message</label></p>
+              <textarea name="message" id="message" 
+                        placeholder="Please enter your comment, question or concern"></textarea>
+
+              <p><input type="submit" name="submit" id="submit" value="Submit" /></p>
+            </form>
+          </div>
+        </section>
+          
+        <section id="sidebar-section">
+          <h3 class="social-elem">Connect with Me</h3>
+          <div id="social-buttons" class="social-elem">
+            <span><a href="https://github.com/tharrisoc"
+                     target="_blank">
+                     <img class="social-button"  
+                          src="./assets/images/if_github_square_black_107109.png"
+                          alt="github icon button" />
+            </a></span>
+
+            <span><a href="https://www.linkedin.com/in/thomas-w-harris"
+                     target="_blank">
+                     <img class="social-button"
+                          src="./assets/images/if_linkedin_square_color_107091.png"
+                          alt="LinkedIn icon button" />
+            </a></span>
+
+            <span><a href="https://stackoverflow.com/users/9070437/jondoe"
+                     target="_blank">
+                     <img class="social-button"
+                          src="./assets/images/if_stackoverflow_273179.png"
+                          alt="stackoverflow icon button" />
+            </a></span>
+          </div>
+        </section>  
+      </div>
+
+      <footer>
+          <p class="footer-text">© Copyright 2018 Thomas Harris</p>
+      </footer>
+    </body>
+  </html>
