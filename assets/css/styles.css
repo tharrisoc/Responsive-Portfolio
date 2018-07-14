@@ -4,8 +4,6 @@ body {
 }
 
 #top-div {
-  background-color: #4AAAA5;
-  color: #FFFFFF;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -15,6 +13,7 @@ body {
 
 #page-name {
   text-align: center;
+  color: #FFFFFF;
 }
 
 a:link { text-decoration: none; }
@@ -54,10 +53,15 @@ a:focus { background-color: #a5f7e2; }
   background-color: #4aaaa5;
 }
 
-footer {
+.page-footer {
   background-color: #666666;
   margin-top: -1rem;
   text-align: center;
+}
+
+.footer-text {
+  font-size: x-small;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 640px) {
@@ -115,10 +119,27 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  #top-div {
+/*    background-color:  #4AAAA5; */
+    background-color:  #FFFFFF;
+    margin-top: -10px;
+    width: 12rem;
+    height: 4rem;
+    display: table;
+    border: 1px solid red;
+  }
+    
+  #page-name {
+    background-color:  #4aaaa5; 
+  }  
+  
+  #menu-links {
+
+  }
   
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 769px) {
   
 }
