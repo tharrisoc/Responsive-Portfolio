@@ -5,3 +5,4 @@ The project includes code for the following cases:
 
 * index.html   640px
 * index.html   768px
+* index.html   980px
